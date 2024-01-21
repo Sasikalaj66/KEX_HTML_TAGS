@@ -1,12 +1,12 @@
 .grid-main{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3,1fr);
     background-color: aqua;
 
 }
 
 .grid-item{
-    background-color: blueviolet;
+    background-color: rgb(43, 168, 226);
     color: black;
-    border: 6px solid green;
+    border: 6px solid rgb(128, 0, 4);
 }

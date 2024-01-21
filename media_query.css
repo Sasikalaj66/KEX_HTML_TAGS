@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     background-color: aqua;
+    padding: auto;
 
 }
 
@@ -9,18 +10,32 @@
     background-color: rgb(43, 168, 226);
     color: black;
     border: 6px solid rgb(128, 0, 30);
+    font-style: oblique;
+    font-size: medium;
+    padding: auto;
 }
 
-@media(max-width:475px){
+@media(max-width:300px){
     .grid-main{
         grid-template-columns: repeat(2,1fr);
-
+        padding: auto;
+        background-color: aquamarine;
     }
+    .grid-item{
+        background-color: rgb(226, 43, 43);
+        color: rgb(14, 154, 77);
+        border: 6px solid rgb(77, 0, 128);
+        font-style: oblique;
+        font-size: medium;
+        padding: auto;
+    }
+    
 }
 
 @media(min-width:800px){
     .grid-main{
         grid-template-columns: repeat(3,1fr);
+
 
     }
 }

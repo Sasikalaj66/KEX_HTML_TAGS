@@ -1,7 +1,15 @@
-h1,p,ul,li{
-    text-align:center;
-    color:rgb(235, 75, 75);
-    background-color:beige;
-    margin:18px
+h1{
+    color:aqua;
+    font-family:'Times New Roman', Times, serif;
+}
 
+.para{
+    background-color: blueviolet;
+    font-size: medium;
+}
+
+#list{
+    color:brown;
+    background-position: 10px;
+    background-color: blue;
 }

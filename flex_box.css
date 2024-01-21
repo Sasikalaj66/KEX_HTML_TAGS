@@ -1,6 +1,6 @@
-.cointainer{
+.container{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     background-color: aqua;
     justify-content: space-evenly;
     flex-wrap: wrap;
